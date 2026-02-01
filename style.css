@@ -1,0 +1,680 @@
+body{
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0%;
+  display: block;
+align-items: center;
+justify-content: space-between;
+font-family: serif;
+  
+  
+  
+  
+}
+
+.linea:hover{
+  color: rgb(255, 0, 0);
+     transition: color 0.5s;
+  font-size: 22px;
+  
+
+}
+
+
+
+.gran:hover{
+    color: rgb(180, 13, 13);
+     transition: color 0.3s;
+  font-size: 20px;
+  
+
+
+}
+
+
+#invi{
+  position: relative;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  height: 150px;
+  width: 100%;
+ opacity: 0;
+  margin-bottom: 10px;
+
+
+}
+.hide{
+  display: none;
+}
+
+.lp{
+background-color: rgba(255, 255, 255, 0); 
+ justify-content: center;
+ text-align: center;
+
+ 
+}
+
+.menu{
+  display: none;
+ 
+background-color: rgba(255, 255, 255, 0); 
+ height: 40px;
+ width: 40px;
+ margin: 0;
+ margin: 10px;
+  margin-top: 25px;
+  
+ 
+
+
+  
+}
+ .menu div{
+    width: 27px;
+    height: 5px;
+    background-color: #000000; 
+    margin:2px;
+    cursor: pointer;
+     margin-right: 15px;
+    
+
+  }
+
+
+/*ESTO DIVIDE LOS 2 ENCABEZADOS*/
+
+#cabeza{
+background-color: rgba(255, 255, 255, 0); 
+
+ 
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     height: 12%;
+     min-height: 70px;
+     max-height: 110px;
+     margin: 0px;
+      
+  
+}
+.magloon{
+ background-color: rgba(255, 255, 255, 0.877); 
+ 
+ 
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 100px;
+    
+
+
+}
+#watsap{
+  
+  
+  width: 200px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 22px;
+ 
+  
+ 
+
+}
+#watsap img{
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+#flotante{ 
+  display: block;
+
+}
+#flotante1{
+  display: none;
+  width: 90%;
+  height: fit-content;
+
+
+}
+
+.show{
+ background-color: rgb(0, 0, 0); 
+ height: 40px;
+ 
+  
+  
+ 
+ display: grid;
+ grid-template-columns: auto auto auto auto auto auto auto auto;
+ align-items:center;
+
+
+ 
+ 
+
+}
+.show div{
+  margin-top: 0%;
+}
+.item{
+  text-align: center;
+  color: yellow;
+
+ 
+}
+
+.logo-transp{
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 80px;
+
+    width: 7cqw;
+    height: 7cqh;
+    margin-left: 10px;
+    margin-top: 15px;
+   
+}
+#mg{
+
+
+  margin-right: 20px;
+  
+    font-size: 40px;
+
+
+}
+
+
+#comollego{
+  
+     color: red;
+ 
+  
+  display: block;
+  box-sizing: border-box;
+ 
+}
+
+a{
+   text-decoration: none; 
+   color: black;
+   padding-left: 20px;
+
+  font-family: serif;
+   font-weight: 600;
+  
+
+ 
+ 
+
+}
+
+#llegar{
+  display: none;
+}
+
+.alerta{
+background-color: rgba(0, 0, 0, 0.849);
+position: absolute;
+justify-content: flex-end;
+text-align: center;
+
+
+top: 0;
+right: 0 ;
+bottom: 0;
+height: 100vh;
+width: 35vw;
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.466);
+
+ 
+  
+
+
+}
+.hamburguesa{
+  
+  color: #ffffff;
+  margin-top: 10%;
+  
+
+
+  
+}
+
+.cierre{
+    cursor: pointer;
+ margin-left: 70%;
+ margin-top: 10%;
+
+
+ height: 40px;
+ width: 40px;
+ 
+  
+}
+ .cierre div{
+
+    width: 27px;
+    height: 5px;
+    background-color: #ffffff; 
+    margin:2px;
+    cursor: pointer;
+     margin-right: 15px;
+    
+
+  }
+  
+#padre{
+ 
+ 
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 80vh;
+  
+
+  
+ 
+
+
+
+}
+
+.hijo1{
+ 
+
+  width: 30%;
+height: 90%;
+
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+
+
+}
+.hijo1 div{
+ 
+  height: 10%;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+ 
+
+}
+
+
+.hijo2{
+
+
+  width: 30%;
+height: 90%;
+
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.hijo2 div{
+ 
+  height: 10%;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+ 
+
+}
+
+
+.hijo3{
+    
+  width: 30%;
+height: 90%;
+
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+
+}
+.hijo3 div{
+ 
+  height: 10%;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+ 
+
+}
+
+
+
+.ft{
+  
+  height: 80%;
+  width: 80%;
+  
+
+}
+.texto{
+  color: blue;
+  
+}
+ 
+#sis{
+  width: 100%;
+  height: 60%;
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/*ESTO DIVIDE LOS 2 ENCABEZADOS*/
+
+#zapato{
+  width: 90%;
+  height: 95%;
+ background-color: #00000002;
+
+}
+
+.pie{
+ 
+  bottom: 0;
+  left: 0;
+  right: 0;
+padding-bottom: 15px;
+padding-left: 4px;
+
+
+  color: rgba(0, 0, 0, 0.205);
+  margin-top: 10px;
+  height: 50px;
+ 
+  background-color: #00000027;
+  display: flex;
+ 
+ 
+
+
+}
+
+
+
+
+
+
+ 
+
+
+
+
+@media (max-width:900px){
+  #mg{
+    font-size: 30px;
+  }
+
+  #cabeza{
+background-color: rgba(255, 255, 255, 0); 
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     height: 11%;
+     min-height: 70px;
+     max-height: 120px;
+     margin: 0px;
+      
+  
+}
+
+  #padre{
+    width: 89%;
+    height: fit-content;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    
+    
+  
+   
+    margin-left: 30px;
+
+
+
+  }
+  .hijo1{
+    width: 600px;
+    height: 800px;
+    margin: 30px;
+
+  }
+  .hijo2 {
+     width: 600px;
+    height: 800px;
+    margin:30px ;
+
+
+  }
+  .hijo3{
+ width: 600px;
+    height: 800px;
+    margin: 30px;
+
+  }
+  .texto{
+    width: 70%;
+    height: 10%;
+    font-size: 25px;
+
+
+  }
+  
+.ft{
+  width:90%;
+height: 90%;
+ }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:700px){
+  .magloon{
+    border-bottom:3px solid #000000;
+
+  }
+  .cabeza{
+    border-bottom:3px solid #000000;
+
+  }
+  #mg{
+    font-size: 30px;
+    
+    
+  }
+
+  .show{
+    display: none;
+  }
+  #comollego{
+   display: none;
+  }
+  #llegar{
+    display: block;
+  }
+  
+  .menu {
+    display:block;
+  }
+  .mg{
+    margin: px;
+  }
+  .texto{
+    font-size: 18px;
+  }
+
+  #watsap{
+    font-size: 14px;
+
+  }
+  #watsap img{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+
+  }
+
+
+}
+
+@media(max-width:590px){
+  #mg{
+    font-size: 20px;
+  }
+
+
+ .ft{
+  width:80%;
+height: 80%;
+ }
+ .texto{
+    font: size 20px; 
+  }
+
+
+
+
+
+  
+}
+
+@media(max-width:530px){
+
+  .ft{
+  width:70%;
+height: 70%;
+margin-left: 10px;
+ }
+
+
+
+}
+
+@media(max-width:490px){
+  
+
+   .ft{
+  width:65%;
+height: 65%;
+margin-left: 30px;
+ }
+
+
+
+}
+
+
+
+@media (max-width: 422px) {
+  #mg{
+    font-size: 0px;
+  }
+
+  h1 {
+    font-size: 0; 
+  }
+  h1::after {
+    content: "Magloon Comercial";
+    font-size: 22px; 
+  }
+  .menu{
+    margin-right: 30px;
+  }
+  
+}
+
+@media(max-width:400px){
+
+    .ft{
+  width:65%;
+height: 65%;
+margin-left: 50px;
+
+ }
+
+
+
+}
+
+
+
+/*Pagina de Como LLEGAR*/
+
+.todo{
+  width: 100%;
+  height: 500px;
+
+}
+
+.local{
+ height: 100px;
+ width: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Pagina de Como LLEGAR*/
